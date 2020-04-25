@@ -5,7 +5,7 @@ html {
 body {
     font-family: 'Handlee', cursive;
     font-size: 13pt;
-    background-color: #efefef;
+    background-color: #d9c8fa;
     padding: 10px;
     margin: 0;
 }
@@ -52,10 +52,15 @@ p {
     font-weight: bold;
     text-align: center;
 }
-.quote {
+.name {
     font-size: 12pt;
     text-align: right;
     margin-top: 10px;
+}
+.date {
+    font-size: 12pt;
+    text-align: right;
+    margin-top: 7px;
 }
 table {
     width: 100%;
