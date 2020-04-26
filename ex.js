@@ -1,7 +1,7 @@
 $('#contact-form').submit(function(e){
-  var name = document.getElementById('inputName');
-  var email = document.getElementById('inputEmial');
-  var message = document.getElementById('inputMessage');
+  var name = document.getElementById('text');
+  var email = document.getElementById('emial');
+  var message = document.getElementById('message');
   
   if (!name.value || !email.value || !message.value) {
     alertify.error('Please check your entries')
