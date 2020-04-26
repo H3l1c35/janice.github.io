@@ -7,7 +7,7 @@ $('#contact-form').submit(function(e){
     alertify.error('Please check your entries')
   } else {
     $.ajax({
-      url: "http://formspree.io/2259056874@qq.com",
+      url: "http://formspree.io/bi22k@mtholyoke.edu",
       method:"POST",
       data: $(this).serialize(),
       dataType: "json"
