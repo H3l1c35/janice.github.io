@@ -87,3 +87,9 @@ input, textarea {
     background-image: url("image.jpg");
     background-size: cover;
 }
+#star img {
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+}
