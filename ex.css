@@ -93,3 +93,9 @@ input, textarea {
     height: 80px;
     margin: auto;
 }
+#star p {
+    color: #20bcd5;
+    padding: 0;
+    margin: 0;
+    line-height: 2;
+}
