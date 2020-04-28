@@ -1,0 +1,45 @@
+<html>
+    <head> 
+        <title>My To-Do List</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <link href="First.css" rel="stylesheet">
+        <script src="First.js"></script>
+    </head>
+    <body>
+         <div class="section">
+            <h1>My To-Do List</h1>
+            <h4>SPAN-101</h4>
+            <label for="Spanish">Spanish:</label>
+            <input type="text" placeholder="New item" />
+            <button class=“add”>Add</button>
+            <ol id="mylist"></ol>
+            <h4>PHYS-132</h4>
+            <label for="Engineer">Engineer:</label>
+            <input type="text" placeholder="New item" />
+            <button class=“add”>Add</button>
+            <ol id="mylist"></ol>
+            <h4>CUSP-212</h4>
+            <label for="SAW">SAW mentoring:</label>
+            <input type="text" placeholder="New item" />
+            <button class=“add”>Add</button>
+            <ol id="mylist"></ol>
+            <h4>ARTST-120</h4>
+            <label for="Art">Your name:</label>
+            <input type="text" placeholder="New item" />
+            <button class=“add”>Add</button>
+            <ol id="mylist"></ol>
+            <h4>COMSC-106</h4>
+            <label for="CS">Computer Science:</label>
+            <input type="text" placeholder="New item" />
+            <button class=“add”>Add</button>
+            <ol id="cslist"></ol>
+            <h4>ARST-105</h4>
+            <label for="Sky">The Sky:</label>
+            <input type="text" placeholder="New item" />
+            <button class=“add”>Add</button>
+            <ol id="mylist"></ol> 
+        </div>
+        <img src="image.jpg" height="860px" width="690px" border="1px" align="left" style="position: fixed; top: 0; right: 0; border: 0;" alt="" /> 
+        <script src="First.js"></script>
+    </body>
+</html>
